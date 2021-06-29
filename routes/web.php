@@ -22,12 +22,3 @@ Route::get('/overview', function () {
 Route::get('/rincian', function () {
     return view('UsulanRevisiAnggaran/rincian');
 });
-Route::get('/form', function () {
-    return view('form');
-});
-Route::get('/table', function () {
-    return view('table');
-});
-Route::get('/ui', function () {
-    return view('ui');
-});
