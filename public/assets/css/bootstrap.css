@@ -3677,11 +3677,7 @@ textarea.form-group-lg .form-control {
 
 .btn.focus,
 .btn:focus,
-.btn:hover {
-    color: #333;
-    text-decoration: none
-}
-
+.btn:hover,
 .btn.active,
 .btn:active {
     background-image: none;
@@ -4681,6 +4677,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
+    font-size: 13px;
     padding: 10px 15px
 }
 

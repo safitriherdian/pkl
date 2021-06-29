@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('UsulanRevisiAnggaran/overview');
+});
+Route::get('/overview', function () {
+    return view('UsulanRevisiAnggaran/overview');
+});
+Route::get('/rincian', function () {
+    return view('UsulanRevisiAnggaran/rincian');
+});
+Route::get('/form', function () {
+    return view('form');
+});
+Route::get('/table', function () {
+    return view('table');
+});
+Route::get('/ui', function () {
+    return view('ui');
 });

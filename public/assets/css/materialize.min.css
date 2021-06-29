@@ -4352,7 +4352,7 @@ footer.page-footer .footer-copyright {
     margin: 0.5rem 0 1rem 0;
     background-color: #fff;
     transition: box-shadow .25s;
-    border-radius: 2px
+    border-radius: 10px
 }
 
 .card .card-title {
@@ -4496,7 +4496,7 @@ footer.page-footer .footer-copyright {
 }
 
 .card .card-content {
-    padding: 20px;
+    padding: 50px;
     border-radius: 0 0 2px 2px
 }
 

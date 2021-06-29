@@ -27,8 +27,8 @@ body {
 #page-inner {
     width: 100%;
     margin: 10px 20px 10px 0px;
-    padding: 15px 30px;
-    min-height: 1200px;
+    padding: 0px 30px 0px 30px;
+    min-height: auto;
 }
 
 .header .container-fluid {
@@ -621,7 +621,7 @@ div#sideNav:hover {
 }
 
 .nav-second-level li a {
-    padding-left: 37px;
+    padding-left: 30px;
 }
 
 .nav-third-level li a {
@@ -644,8 +644,9 @@ div#sideNav:hover {
 }
 
 .sidebar-collapse>.nav>li>a {
-    padding: 8px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 13px;
+    vertical-align: middle;
 }
 
 .sidebar-collapse>.nav>li {
